@@ -1,0 +1,9 @@
+# Runtime dependencies
+openai>=0.27.0
+tiktoken>=0.4.0
+
+# Development dependencies
+pytest>=7.0.0
+pytest-mock>=3.10.0
+flake8>=6.0.0
+mypy>=1.0.0
