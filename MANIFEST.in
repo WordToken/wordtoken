@@ -1,0 +1,14 @@
+# Include the README and LICENSE files
+include README.md
+include LICENSE
+
+# Include all Python files
+recursive-include wordtoken *.py
+
+# Include requirements.txt
+include requirements.txt
+
+# Exclude unnecessary files
+exclude *.pyc
+exclude *.pyo
+exclude __pycache__
