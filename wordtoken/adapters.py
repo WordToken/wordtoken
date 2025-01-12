@@ -3,8 +3,6 @@ from .tokens import TokenEstimator
 from .costs import CostEstimator
 from openai import OpenAI
 
-client = OpenAI(api_key=api_key)
-
 
 class OpenAIAdapter(BaseAdapter):
     """
@@ -13,11 +11,12 @@ class OpenAIAdapter(BaseAdapter):
 
     def __init__(self, api_key: str) -> None:
         self.api_key = api_key
+        self.client = OpenAI(api_key=api_key)
         self.token_estimator = TokenEstimator()
         self.cost_estimator = CostEstimator()
 
     def send_prompt(self, prompt: str, model: str = "gpt-3.5-turbo", **kwargs) -> dict:
-        response = client.chat.completions.create(model=model,
+        response = self.client.chat.completions.create(model=model,
         messages=[{"role": "user", "content": prompt}],
         **kwargs)
         return {"output": response.choices[0].message.content}
