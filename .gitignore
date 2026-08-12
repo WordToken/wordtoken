@@ -1,112 +1,30 @@
-wordtoken-env/ 
-# Byte-compiled / optimized / compiled Python files
+# Virtual environments
+.venv/
+.venv-test/
+venv/
+env/
+wordtoken-env/
+
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+build/
+dist/
 
-# PyInstaller
-# Usually these files are written by a python script from a template
-# before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-*.cover
-*.py,cover
-.hypothesis/
+# Tooling caches
 .pytest_cache/
-pytestdebug.log
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# pipenv
-Pipfile
-Pipfile.lock
-
-# poetry
-poetry.lock
-.cache/
-
-# PEP 582; used by e.g. python(x,y)
-__pypackages__/
-
-# Celery
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
 .mypy_cache/
-.dmypy.json
-dmypy.json
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
 
-# Pyre
-.pyre/
+# Secrets & local config
+.env
 
-# profiling
-.prof
-
-# Editor-specific
+# Editors & OS
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
-
-# OS-specific
 .DS_Store
-Thumbs.db
