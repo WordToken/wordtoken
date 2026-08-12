@@ -1,0 +1,70 @@
+# Which art styles are users asking for? Runs well over the same corpora as
+# clipart-demand — style and subject are orthogonal axes of the same demand.
+
+name: visual-style
+version: 1
+buckets:
+  watercolor:
+    description: Watercolor and soft-wash looks
+    patterns:
+      - watercolor
+      - water color
+      - soft wash
+      - wet on wet
+  flat_minimal:
+    description: Flat, minimal, geometric vector looks
+    patterns:
+      - "\\bflat\\b"
+      - minimal
+      - geometric
+      - simple shapes
+      - clean lines
+  line_art:
+    description: Line art, outlines, doodles, ink
+    patterns:
+      - line art
+      - lineart
+      - outline
+      - doodle
+      - "\\bink\\b"
+      - hand drawn line
+      - sketch
+  three_d_render:
+    description: 3D-rendered and claymation looks
+    patterns:
+      - "3d"
+      - three dimensional
+      - claymation
+      - "\\bclay\\b"
+      - isometric
+      - blender
+  pixel:
+    description: Pixel and voxel art
+    patterns:
+      - pixel
+      - 8-bit
+      - 8 bit
+      - 16-bit
+      - voxel
+      - sprite
+  vintage_retro:
+    description: Vintage, retro, and groovy period looks
+    patterns:
+      - vintage
+      - retro
+      - groovy
+      - "\\b(19)?50s\\b"
+      - "\\b(19)?60s\\b"
+      - "\\b(19)?70s\\b"
+      - mid-?century
+      - art deco
+  hand_drawn:
+    description: Hand-drawn, painterly, crayon, chalk textures
+    patterns:
+      - hand-?drawn
+      - crayon
+      - "\\bchalk\\b"
+      - painterly
+      - gouache
+      - colored pencil
+      - pastel
