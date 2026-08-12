@@ -1,0 +1,44 @@
+# Publishes to PyPI via Trusted Publishing (OIDC) — no tokens anywhere.
+# Build and publish are separate jobs on purpose: the publish job receives a
+# bare dist/ artifact and nothing else, and runs in the protected `pypi`
+# environment (configure a required reviewer there so every release needs an
+# explicit approval click). See RELEASING.md.
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+        with:
+          # No cache in the release path — published artifacts must not be
+          # buildable from potentially poisoned cache state.
+          enable-cache: false
+      - run: uv build
+      - uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5
+        with:
+          name: dist
+          path: dist/
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write # mandatory for PyPI Trusted Publishing
+    steps:
+      - uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6
+        with:
+          name: dist
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@dc37677b2e1c63e2034f94d8a5b11f265b73ba33 # release/v1

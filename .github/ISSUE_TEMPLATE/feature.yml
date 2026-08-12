@@ -1,0 +1,18 @@
+name: Feature request
+description: Propose an addition or change
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: >
+        Describe the situation where wordtoken falls short, not just the
+        feature. Corpus-shape examples help.
+    validations:
+      required: true
+  - type: textarea
+    id: sketch
+    attributes:
+      label: Rough API or CLI sketch (optional)
+      render: python
