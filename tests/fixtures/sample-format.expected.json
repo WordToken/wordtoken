@@ -1,0 +1,231 @@
+{
+  "generated_at": "2026-01-01T00:00:00+00:00",
+  "corpus_size": 200,
+  "taxonomy_name": "format-and-usage",
+  "taxonomy_version": 1,
+  "bucket_counts": {
+    "other": 164,
+    "printable": 23,
+    "transparent_png": 4,
+    "seamless_pattern": 4,
+    "bundle_pack": 3,
+    "svg_cut_file": 2
+  },
+  "bucket_shares": {
+    "other": 0.82,
+    "printable": 0.115,
+    "transparent_png": 0.02,
+    "seamless_pattern": 0.02,
+    "bundle_pack": 0.015,
+    "svg_cut_file": 0.01
+  },
+  "bucket_samples": {
+    "other": [
+      "halloween pastel goth cat sticker, lavender and mint",
+      "halloween pastel goth cat sticker, lavender and mint, bigger eyes",
+      "halloween pastel goth cat sticker, lavender and mint, bigger eyes, add tiny bats",
+      "kindergarten counting worksheet border with ladybugs",
+      "kindergarten counting worksheet border with ladybugs, black and white line art",
+      "kindergarten counting worksheet border with ladybugs, black and white line art, thicker lines",
+      "retro diner milkshake clip art, 1950s menu style",
+      "retro diner milkshake clip art, 1950s menu style, add cherry on top"
+    ],
+    "printable": [
+      "back to school border with pencils and rulers, printable",
+      "reading corner poster art, cozy kid with book and cat",
+      "solar system printable for kindergarten, cute smiling planets",
+      "letter D dinosaur for alphabet poster, green friendly",
+      "teacher appreciation card art, apple and wildflowers watercolor",
+      "sight word bingo card decorations, stars and rockets",
+      "boho rainbow baby shower invitation art, terracotta and sage",
+      "sticker sheet of kawaii desserts, donut macaron boba"
+    ],
+    "transparent_png": [
+      "watercolor woodland fox, soft edges, transparent background",
+      "watercolor woodland fox, soft edges, transparent background, warmer orange",
+      "watercolor woodland fox, soft edges, transparent background, warmer orange, no shadow",
+      "watercolor woodland fox, softer edges, transparent background, warmer orange, no shadow"
+    ],
+    "seamless_pattern": [
+      "seamless strawberry pattern for fabric, cottagecore",
+      "seamless strawberry pattern for fabric, cottagecore, smaller berries",
+      "seamless strawberry pattern for fabric, cottagecore, smaller berries, cream background",
+      "seamless pattern of lemons and leaves for wrapping paper"
+    ],
+    "bundle_pack": [
+      "bundle of 12 coffee quotes in retro typography",
+      "autumn leaves clip art pack, maple oak birch, warm tones",
+      "unicorn birthday sticker pack for party favors"
+    ],
+    "svg_cut_file": [
+      "svg cut file style mama bear with three cubs silhouette",
+      "cricut friendly farmhouse sign art, welcome to our porch"
+    ]
+  },
+  "top_terms": [
+    [
+      "art",
+      27
+    ],
+    [
+      "style",
+      14
+    ],
+    [
+      "set",
+      13
+    ],
+    [
+      "clip",
+      11
+    ],
+    [
+      "watercolor",
+      10
+    ],
+    [
+      "pastel",
+      10
+    ],
+    [
+      "pattern",
+      10
+    ],
+    [
+      "flat",
+      9
+    ],
+    [
+      "background",
+      8
+    ],
+    [
+      "sticker",
+      8
+    ],
+    [
+      "tiny",
+      8
+    ],
+    [
+      "border",
+      8
+    ],
+    [
+      "gold",
+      8
+    ],
+    [
+      "fox",
+      7
+    ],
+    [
+      "soft",
+      7
+    ],
+    [
+      "card",
+      7
+    ],
+    [
+      "woodland",
+      6
+    ],
+    [
+      "halloween",
+      6
+    ],
+    [
+      "cat",
+      6
+    ],
+    [
+      "worksheet",
+      6
+    ],
+    [
+      "retro",
+      6
+    ],
+    [
+      "shapes",
+      6
+    ],
+    [
+      "poster",
+      6
+    ],
+    [
+      "stars",
+      6
+    ],
+    [
+      "rainbow",
+      6
+    ],
+    [
+      "shop",
+      6
+    ],
+    [
+      "counting",
+      5
+    ],
+    [
+      "line",
+      5
+    ],
+    [
+      "friendly",
+      5
+    ],
+    [
+      "kid",
+      5
+    ]
+  ],
+  "iteration_groups": [
+    {
+      "user_id": "u02",
+      "texts": [
+        "watercolor woodland fox, soft edges, transparent background",
+        "watercolor woodland fox, soft edges, transparent background, warmer orange",
+        "watercolor woodland fox, soft edges, transparent background, warmer orange, no shadow",
+        "watercolor woodland fox, softer edges, transparent background, warmer orange, no shadow"
+      ]
+    },
+    {
+      "user_id": "u07",
+      "texts": [
+        "halloween pastel goth cat sticker, lavender and mint",
+        "halloween pastel goth cat sticker, lavender and mint, bigger eyes",
+        "halloween pastel goth cat sticker, lavender and mint, bigger eyes, add tiny bats"
+      ]
+    },
+    {
+      "user_id": "u11",
+      "texts": [
+        "seamless strawberry pattern for fabric, cottagecore",
+        "seamless strawberry pattern for fabric, cottagecore, smaller berries"
+      ]
+    },
+    {
+      "user_id": "u19",
+      "texts": [
+        "kindergarten counting worksheet border with ladybugs",
+        "kindergarten counting worksheet border with ladybugs, black and white line art"
+      ]
+    },
+    {
+      "user_id": "u23",
+      "texts": [
+        "retro diner milkshake clip art, 1950s menu style",
+        "retro diner milkshake clip art, 1950s menu style, add cherry on top"
+      ]
+    }
+  ],
+  "warnings": [
+    "82% of records matched no bucket — the taxonomy is missing what your users are asking for. Read the 'other' samples."
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,164 @@
+{
+  "generated_at": "2026-01-01T00:00:00+00:00",
+  "corpus_size": 8,
+  "taxonomy_name": "clipart-demand",
+  "taxonomy_version": 1,
+  "bucket_counts": {
+    "animals_nature": 3,
+    "seller_commercial": 2,
+    "educational": 2,
+    "other": 2
+  },
+  "bucket_shares": {
+    "animals_nature": 0.375,
+    "seller_commercial": 0.25,
+    "educational": 0.25,
+    "other": 0.25
+  },
+  "bucket_samples": {
+    "animals_nature": [
+      "café chalkboard menu art with a small dog under the table",
+      "🦊🦊🦊 a very long emoji fox parade banner with sparkles ✨ and hearts 💖💛 that keeps going and going until it is certainly l",
+      "1024x1024 transparent png of a cat"
+    ],
+    "seller_commercial": [
+      "dogé costume sticker, internet meme style",
+      "🦊🦊🦊 a very long emoji fox parade banner with sparkles ✨ and hearts 💖💛 that keeps going and going until it is certainly l"
+    ],
+    "educational": [
+      "grade ٣ arabic numerals counting poster",
+      "grade 3 counting poster, plain"
+    ],
+    "other": [
+      "send the proofs to <email> before friday",
+      "naïve watercolor jardin scene, très soft"
+    ]
+  },
+  "top_terms": [
+    [
+      "dog",
+      2
+    ],
+    [
+      "grade",
+      2
+    ],
+    [
+      "counting",
+      2
+    ],
+    [
+      "poster",
+      2
+    ],
+    [
+      "going",
+      2
+    ],
+    [
+      "costume",
+      1
+    ],
+    [
+      "sticker",
+      1
+    ],
+    [
+      "internet",
+      1
+    ],
+    [
+      "meme",
+      1
+    ],
+    [
+      "style",
+      1
+    ],
+    [
+      "caf",
+      1
+    ],
+    [
+      "chalkboard",
+      1
+    ],
+    [
+      "menu",
+      1
+    ],
+    [
+      "art",
+      1
+    ],
+    [
+      "small",
+      1
+    ],
+    [
+      "under",
+      1
+    ],
+    [
+      "table",
+      1
+    ],
+    [
+      "arabic",
+      1
+    ],
+    [
+      "numerals",
+      1
+    ],
+    [
+      "plain",
+      1
+    ],
+    [
+      "send",
+      1
+    ],
+    [
+      "proofs",
+      1
+    ],
+    [
+      "email",
+      1
+    ],
+    [
+      "before",
+      1
+    ],
+    [
+      "friday",
+      1
+    ],
+    [
+      "long",
+      1
+    ],
+    [
+      "emoji",
+      1
+    ],
+    [
+      "fox",
+      1
+    ],
+    [
+      "parade",
+      1
+    ],
+    [
+      "banner",
+      1
+    ]
+  ],
+  "iteration_groups": [],
+  "warnings": [
+    "Corpus has only 8 records — treat shares as direction, not statistics."
+  ],
+  "schema_version": 1
+}

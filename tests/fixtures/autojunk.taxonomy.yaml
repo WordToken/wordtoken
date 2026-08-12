@@ -1,0 +1,148 @@
+# Demand taxonomy for an AI clip-art product's prompts and pack briefs.
+# The first real wordtoken taxonomy — used to answer "are our users
+# sellers or educators?" over clip.art's corpus, 2026-08.
+#
+# Buckets overlap on purpose: "kawaii ghost sticker" is seller AND
+# kids-characters, and the overlap is the finding.
+
+name: clipart-demand
+version: 1
+buckets:
+  educational:
+    description: Teaching material — worksheets, classroom, homeschool
+    patterns:
+      - worksheet
+      - "\\bschool\\b"
+      - alphabet
+      - phonics
+      - counting
+      - classroom
+      - teacher
+      - homeschool
+      - kindergarten
+      - preschool
+      - flashcard
+      - curriculum
+      - lesson
+      - spelling
+      - sight word
+      - handwriting
+      - tracing
+      - "grade \\d"
+  seller_commercial:
+    description: Asset-for-sale signals — POD, party printables, shops
+    patterns:
+      - sticker
+      - planner
+      - invitation
+      - wedding
+      - baby shower
+      - bridal shower
+      - gender reveal
+      - birthday
+      - banner
+      - logo
+      - t-?shirt
+      - mug
+      - tumbler
+      - svg
+      - cricut
+      - print on demand
+      - etsy
+      - sublimation
+      - scrapbook
+      - junk journal
+      - card making
+      - bundle
+      - seamless
+      - price tag
+      - packaging
+  holiday_seasonal:
+    description: Holiday and season themes
+    patterns:
+      - christmas
+      - halloween
+      - easter
+      - thanksgiving
+      - valentine
+      - "st\\.? ?patrick"
+      - new year
+      - hanukkah
+      - holiday
+      - santa
+      - advent
+      - spooky
+      - pumpkin
+      - sugar skull
+      - cupid
+      - fireworks
+      - harvest
+      - autumn
+      - winter
+      - spring
+      - summer
+  animals_nature:
+    description: Animals, plants, natural scenes
+    patterns:
+      - animal
+      - "\\bdog\\b"
+      - "\\bcats?\\b"
+      - bear
+      - "\\bfox\\b"
+      - "\\bowl\\b"
+      - dinosaur
+      - "\\bbirds?\\b"
+      - butterfly
+      - "\\bfish\\b"
+      - "\\bfarm\\b"
+      - jungle
+      - safari
+      - forest
+      - woodland
+      - sloth
+      - koala
+      - panda
+      - penguin
+      - "\\bwol(f|ves)\\b"
+      - hedgehog
+      - peacock
+      - snail
+      - "\\bbees?\\b"
+      - "\\bfrogs?\\b"
+      - elephant
+      - goldfish
+      - "\\bkoi\\b"
+      - blossom
+      - flower
+      - floral
+      - garden
+      - succulent
+      - cactus
+      - mushroom
+      - mountain
+      - ocean
+      - "\\bsea\\b"
+  kids_characters:
+    description: Cute characters and kid-oriented subjects
+    patterns:
+      - cute
+      - kawaii
+      - cartoon
+      - princess
+      - fairy
+      - unicorn
+      - dragon
+      - superhero
+      - robot
+      - monster
+      - pirate
+      - mermaid
+      - wizard
+      - astronaut
+      - ballerina
+      - circus
+      - nursery
+      - rainbow
+      - "\\bbaby\\b"
+      - "\\bkids?\\b"
+      - children

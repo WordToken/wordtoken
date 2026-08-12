@@ -1,0 +1,47 @@
+# What FORMAT do users need the output in? Signals product requirements
+# (transparent PNGs, cut files, patterns) rather than subject matter.
+
+name: format-and-usage
+version: 1
+buckets:
+  transparent_png:
+    description: Transparent-background raster assets
+    patterns:
+      - transparent
+      - no background
+      - white background removed
+      - "\\bpng\\b"
+  svg_cut_file:
+    description: Vector and cutting-machine formats
+    patterns:
+      - "\\bsvg\\b"
+      - vector
+      - cut file
+      - cricut
+      - silhouette cameo
+      - "\\bdxf\\b"
+  seamless_pattern:
+    description: Repeating and tileable patterns
+    patterns:
+      - seamless
+      - tileable
+      - repeating pattern
+      - repeat pattern
+  bundle_pack:
+    description: Multi-asset sets and bundles
+    patterns:
+      - bundle
+      - "\\bpack\\b"
+      - "\\bset of\\b"
+      - collection
+      - matching set
+  printable:
+    description: Print-destined outputs
+    patterns:
+      - printable
+      - print at home
+      - "\\bposter\\b"
+      - "\\bcard\\b"
+      - invitation
+      - sticker sheet
+      - coloring page
