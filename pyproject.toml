@@ -47,7 +47,7 @@ Changelog = "https://github.com/WordToken/wordtoken/blob/main/CHANGELOG.md"
 dev = [
   "pytest>=8",
   "pytest-cov>=5",
-  "mypy>=1.11",
+  "mypy>=2.3.1",
   "ruff>=0.6",
   "types-PyYAML",
 ]
